@@ -166,3 +166,28 @@ git merge [branch name]
 ```
 *This command merges the specified branch’s history into the current branch.*
 
+### git remote
+```sh
+git remote add [variable name] [Remote Server Link]
+```
+*This command is used to connect your local repository to the remote server.*
+
+## git push
+```sh
+git push [variable name] master
+```
+
+```sh
+git push [variable name] [branch]
+```
+*This command sends the branch commits to your remote repository.*
+
+```sh
+git push –all [variable name]
+```
+*This command pushes all branches to your remote repository.*
+
+```sh
+git push [variable name] :[branch name]
+```
+*This command deletes a branch on your remote repository.*
