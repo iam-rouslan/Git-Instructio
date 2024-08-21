@@ -98,3 +98,15 @@ git reset –hard [commit]
 ```
 *This command discards all history and goes back to the specified commit.*
 
+### git status
+```sh
+git status
+```
+*This command lists all the files that have to be committed.*
+
+### git rm
+```sh
+git rm [file]
+```
+*This command deletes the file from your working directory and stages the deletion.*
+
