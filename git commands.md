@@ -191,3 +191,30 @@ git push –all [variable name]
 git push [variable name] :[branch name]
 ```
 *This command deletes a branch on your remote repository.*
+
+### git pull
+```sh
+git pull [Repository Link]
+```
+*This command fetches and merges changes on the remote server to your working directory.*
+
+### git stash
+```sh
+git stash save
+```
+*This command temporarily stores all the modified tracked files.*
+
+```sh
+git stash pop
+```
+*This command restores the most recently stashed files.*
+
+```sh
+git stash list
+```
+*This command lists all stashed changesets.*
+
+```sh
+git stash drop
+```
+*This command discards the most recently stashed changeset.*
