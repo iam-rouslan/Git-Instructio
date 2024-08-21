@@ -126,3 +126,26 @@ git log –follow[file]
 git show [commit]
 ```
 *This command shows the metadata and content changes of the specified commit.*
+
+### git tag
+```sh
+git tag [commitID]
+```
+*This command is used to give tags to the specified commit.*
+
+### git branch
+```sh
+git branch
+```
+*This command lists all the local branches in the current repository.*
+
+```sh
+git branch [branch name]
+```
+*This command creates a new branch.*
+
+```sh
+git branch -d [branch name]
+```
+*This command deletes the feature branch.*
+
