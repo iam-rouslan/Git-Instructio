@@ -64,5 +64,37 @@ _This command records or snapshots the file permanently in the version history._
 ```sh
  git commit -a
 ```
-
 *This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.*
+
+### git diff
+```sh
+git diff
+```
+*This command shows the file differences which are not yet staged.*
+
+```sh
+git diff -staged
+```
+*This command shows the differences between the files in the staging area and the latest version present.*
+
+```sh
+git diff [first branch] [second branch]
+```
+*This command shows the differences between the two branches mentioned.*
+
+### git reset
+```sh
+git reset [file]
+```
+*This command unstages the file, but it preserves the file contents.*
+
+```sh
+git reset [commit]
+```
+*This command undoes all the commits after the specified commit and preserves the changes locally.*
+
+```sh
+git reset –hard [commit]
+```
+*This command discards all history and goes back to the specified commit.*
+
