@@ -20,4 +20,14 @@
 - **git pull**
 - **git stash**
 
-` git config –global user.name “[name]” `
+## Git Commands
+
+### git config
+
+```sh
+git config –global user.name “[name]”
+```
+```sh
+git config –global user.email “[email address]”
+```
+*This command sets the author name and email address respectively to be used with your commits.*
