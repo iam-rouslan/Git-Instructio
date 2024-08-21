@@ -110,3 +110,19 @@ git rm [file]
 ```
 *This command deletes the file from your working directory and stages the deletion.*
 
+### git log
+```sh
+git log
+```
+*This command is used to list the version history for the current branch.*
+
+```sh
+git log –follow[file]
+```
+*This command lists version history for a file, including the renaming of files also.*
+
+### git show
+```sh
+git show [commit]
+```
+*This command shows the metadata and content changes of the specified commit.*
