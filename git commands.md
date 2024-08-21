@@ -149,3 +149,20 @@ git branch -d [branch name]
 ```
 *This command deletes the feature branch.*
 
+### git checkout
+```sh
+git chekcout [brnach name]
+```
+*This command is used to switch from one branch to another.*
+
+```sh
+git checkout -b [branch name]
+```
+*This command creates a new branch and also switches to it.*
+
+### git merge
+```sh
+git merge [branch name]
+```
+*This command merges the specified branch’s history into the current branch.*
+
