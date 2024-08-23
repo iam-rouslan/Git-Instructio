@@ -1,0 +1,9 @@
+# Project exclude paths
+/target/
+/.idea/
+/src/main/resources/META-INF/persistence.xml
+.classpath
+.project
+/.settings/
+Task1
+*.iml
