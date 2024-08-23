@@ -42,24 +42,24 @@ git init [repository name]
 ```sh
 git clone [url]
 ```
-_This command is used to obtain a repository from an existing URL._
+*This command is used to obtain a repository from an existing URL.*
 ![git-clone](git-clone.png)
 ### git add
 ```sh
 git add [file]
 ```
-_his command adds a file to the staging area._
+*his command adds a file to the staging area.*
 ![git-add](git-add.png)
 ```sh
 git add *
 ```
-_This command adds one or more to the staging area._
+*This command adds one or more to the staging area.*
 ![git-add-all](git-add-all.png)
 ### git commit
 ```sh
 git commit -m “[ Type in the commit message]”
 ```
-_This command records or snapshots the file permanently in the version history._
+*This command records or snapshots the file permanently in the version history.*
 ![git-commit](git-commit.png)
 ```sh
  git commit -a
