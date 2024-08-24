@@ -45,14 +45,16 @@ git init [repository name]
 ```sh
 git clone [url]
 ```
-*This command is used to obtain a repository from an existing URL.*
+*This command is used to obtain a repository from an existing URL.
+The git clone command copies an existing Git repository.*
 
 ![git-clone](git-clone.png)
 ### git add
 ```sh
 git add [file]
 ```
-*his command adds a file to the staging area.*
+*his command adds a file to the staging area.
+The git add command adds a change in the working directory to the staging area. *
 
 ![git-add](git-add.png)
 
