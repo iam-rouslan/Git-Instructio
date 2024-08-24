@@ -1,24 +1,24 @@
 # Here are the Git commands which are being covered:
 
-- **git cofig**
-- **git init**
-- **git clone**
-- **git add**
-- **git commit**
-- **git diff**
-- **git reset**
-- **git status**
-- **git rm**
-- **git log**
-- **git show**
-- **git tag**
-- **git branch**
-- **git checkout**
-- **git merge**
-- **git remote**
-- **git push**
-- **git pull**
-- **git stash**
+1. **git cofig**
+2. **git init**
+3. **git clone**
+4. **git add**
+5. **git commit**
+6. **git diff**
+7. **git reset**
+8. **git status**
+9. **git rm**
+10. **git log**
+11. **git show**
+12. **git tag**
+13. **git branch**
+14. **git checkout**
+15. **git merge**
+16. **git remote**
+17. **git push**
+18. **git pull**
+19. **git stash**
 
 ## Git Commands
 
