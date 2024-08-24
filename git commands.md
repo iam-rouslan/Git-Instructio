@@ -33,35 +33,35 @@ git config –global user.email “[email address]”
 
 *The git config command is a convenience function that is used to set Git configuration values on a global or local project level. These configuration levels correspond to . gitconfig text files. Executing git config will modify a configuration text file..*
 
-![git-config](git-config.png)
+![git-config](git-photo/git-config.png)
 ### git init
 ```sh
 git init [repository name]
 ```
 *The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.*
 
-![git-init](git-init.png)
+![git-init](git-photo/git-init.png)
 ### git clone
 ```sh
 git clone [url]
 ```
 *This command is used to obtain a repository from an existing URL.*
 
-![git-clone](git-clone.png)
+![git-clone]git-photo/(git-clone.png)
 ### git add
 ```sh
 git add [file]
 ```
 *his command adds a file to the staging area.*
 
-![git-add](git-add.png)
+![git-add](git-photo/git-add.png)
 
 ```sh
 git add *
 ```
 *This command adds one or more to the staging area.*
 
-![git-add-all](git-add-all.png)
+![git-add-all](git-photo/git-add-all.png)
 
 ### git commit
 ```sh
@@ -69,14 +69,14 @@ git commit -m “[ Type in the commit message]”
 ```
 *This command records or snapshots the file permanently in the version history.*
 
-![git-commit](git-commit.png)
+![git-commit](git-photo/git-commit.png)
 
 ```sh
  git commit -a
 ```
 *This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.*
 
-![git-commit-all](git-commit-all.png)
+![git-commit-all](git-photo/git-commit-all.png)
 
 ### git diff
 ```sh
@@ -84,21 +84,21 @@ git diff
 ```
 *This command shows the file differences which are not yet staged.*
 
-![git-diff](git-diff.png)
+![git-diff](git-photo/git-diff.png)
 
 ```sh
 git diff -staged
 ```
 *This command shows the differences between the files in the staging area and the latest version present.*
 
-![git-diff-staged](git-diff-staged.png)
+![git-diff-staged](git-photo/git-diff-staged.png)
 
 ```sh
 git diff [first branch] [second branch]
 ```
 *This command shows the differences between the two branches mentioned.*
 
-![git-diff-branches](git-diff-branches.png)
+![git-diff-branches]git-photo/(git-diff-branches.png)
 
 ### git reset
 ```sh
@@ -106,21 +106,21 @@ git reset [file]
 ```
 *This command unstages the file, but it preserves the file contents.*
 
-![git-reset](git-reset.png)
+![git-reset](git-photo/git-reset.png)
 
 ```sh
 git reset [commit]
 ```
 *This command undoes all the commits after the specified commit and preserves the changes locally.*
 
-![git-reset-commit](git-reset-commit.png)
+![git-reset-commit](git-photo/git-reset-commit.png)
 
 ```sh
 git reset –hard [commit]
 ```
 *This command discards all history and goes back to the specified commit.*
 
-![git-reset-hard](git-hard-reset.png)
+![git-reset-hard]git-photo/(git-hard-reset.png)
 
 ### git status
 ```sh
@@ -128,7 +128,7 @@ git status
 ```
 *This command lists all the files that have to be committed.*
 
-![git-status](git-status.png)
+![git-status]git-photo/(git-status.png)
 
 ### git rm
 ```sh
@@ -136,7 +136,7 @@ git rm [file]
 ```
 *This command deletes the file from your working directory and stages the deletion.* 
 
-![git-rm](git-rm.png)
+![git-rm](git-photo/git-rm.png)
 
 ### git log
 ```sh
@@ -144,14 +144,14 @@ git log
 ```
 *This command is used to list the version history for the current branch.*
 
-![git-log](git-log.png)
+![git-log](git-photo/git-log.png)
 
 ```sh
 git log –follow[file]
 ```
 *This command lists version history for a file, including the renaming of files also.*
 
-![git-log-follow](git-log-follow.png)
+![git-log-follow](git-photo/git-log-follow.png)
 
 ### git show
 ```sh
@@ -159,7 +159,7 @@ git show [commit]
 ```
 *This command shows the metadata and content changes of the specified commit.*
 
-![git-show](git-show.png)
+![git-show](git-photo/git-show.png)
 
 ### git tag
 ```sh
@@ -167,7 +167,7 @@ git tag [commitID]
 ```
 *This command is used to give tags to the specified commit.*
 
-![git-tag](git-tag.png)
+![git-tag](git-photo/git-tag.png)
 
 ### git branch
 ```sh
@@ -175,21 +175,21 @@ git branch
 ```
 *This command lists all the local branches in the current repository.*
 
-![git-branch](git-branch.png)
+![git-branch](git-photo/git-branch.png)
 
 ```sh
 git branch [branch name]
 ```
 *This command creates a new branch.*
 
-![git-create-branch](git-create-branch.png)
+![git-create-branch](git-photo/git-create-branch.png)
 
 ```sh
 git branch -d [branch name]
 ```
 *This command deletes the feature branch.*
 
-![git-delete-branch](git-delete-branch.png)
+![git-delete-branch](git-photo/git-delete-branch.png)
 
 ### git checkout
 ```sh
@@ -197,14 +197,14 @@ git chekcout [brnach name]
 ```
 *This command is used to switch from one branch to another.*
 
-![git-checkout](git-checkout.png)
+![git-checkout](git-photo/git-checkout.png)
 
 ```sh
 git checkout -b [branch name]
 ```
 *This command creates a new branch and also switches to it.*
 
-![git-create-branch-switch](git-create-branch-switch.png)
+![git-create-branch-switch](git-photo/git-create-branch-switch.png)
 
 ### git merge
 ```sh
@@ -212,7 +212,7 @@ git merge [branch name]
 ```
 *This command merges the specified branch’s history into the current branch.*
 
-![git-merge](git-merge.png)
+![git-merge](git-photo/git-merge.png)
 
 ### git remote
 ```sh
@@ -220,7 +220,7 @@ git remote add [variable name] [Remote Server Link]
 ```
 *This command is used to connect your local repository to the remote server.*
 
-![git-remote](git-remote.png)
+![git-remote](git-photo/git-remote.png)
 
 ## git push
 ```sh
@@ -231,7 +231,7 @@ git push [variable name] [branch]
 ```
 *This command sends the branch commits to your remote repository.*
 
-![git-push](git-push.png)
+![git-push](git-photo/git-push.png)
 
 ![git-push-02](git-push-02.png)
 
@@ -240,14 +240,14 @@ git push –all [variable name]
 ```
 *This command pushes all branches to your remote repository.*
 
-![git-push-all](git-push-all.png)
+![git-push-all](git-photo/git-push-all.png)
 
 ```sh
 git push [variable name] :[branch name]
 ```
 *This command deletes a branch on your remote repository.*
 
-![git-push-delete](git-push-delete.png)
+![git-push-delete](git-photo/git-push-delete.png)
 
 ### git pull
 ```sh
@@ -256,7 +256,7 @@ git pull [Repository Link]
 *This command fetches and merges changes on the remote server to your 
 working directory.*
 
-![git-pull](git-pull.png)
+![git-pull](git-photo/git-pull.png)
 
 ### git stash
 ```sh
@@ -264,25 +264,25 @@ git stash save
 ```
 *This command temporarily stores all the modified tracked files.*
 
-![git-stash-save](git-stash-save.png)
+![git-stash-save](git-photo/git-stash-save.png)
 
 ```sh
 git stash pop
 ```
 *This command restores the most recently stashed files.*
 
-![git-stash-pop](git-stash-pop.png)
+![git-stash-pop](git-photo/git-stash-pop.png)
 
 ```sh
 git stash list
 ```
 *This command lists all stashed changesets.*
 
-![git-stash-list](git-stash-list.png)
+![git-stash-list](git-photo/git-stash-list.png)
 
 ```sh
 git stash drop
 ```
 *This command discards the most recently stashed changeset.*
 
-![git-stash-drop](git-stash-drop.png)
+![git-stash-drop](git-photo/git-stash-drop.png)
