@@ -76,7 +76,7 @@ git commit -m “[ Type in the commit message]”
 ```sh
  git commit -a
 ```
-*This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.*
+*Commits any files you’ve added with the git add command and also commits any files you’ve changed since then.*
 
 ![git-commit-all](git-commit-all.png)
 
