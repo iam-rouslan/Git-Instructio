@@ -1,3 +1,3 @@
-# This is a link to download foto for git-instruction
+# This is a link to download foto for git-commands
 
-https://files.fm/u/xyngx4gtk7
+## https://files.fm/u/xyngx4gtk7
