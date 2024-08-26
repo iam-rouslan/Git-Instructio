@@ -100,7 +100,7 @@ git diff [first branch] [second branch]
 ```
 *This command shows the differences between the two branches mentioned.*
 
-![git-diff-branches]git-photo/(git-diff-branches.png)
+![git-diff-branches.png](git-photo/git-diff-branches.png)
 
 ### git reset
 ```sh
