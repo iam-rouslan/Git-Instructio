@@ -1,5 +1,11 @@
 # Here are the Git commands which are being covered:
 
+Так что _main^_ означает "первый родитель ветки main".
+
+_main^^_ означает прародитель (родитель родителя) _main_
+Чтобы перейти надо написать : __git checkout main^__
+
+
 1. **git cofig**
 2. **git init**
 3. **git clone**
