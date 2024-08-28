@@ -1,5 +1,7 @@
 # Here are the Git commands which are being covered:
 
+test
+
 Так что _main^_ означает "первый родитель ветки main".
 
 _main^^_ означает прародитель (родитель родителя) _main_
